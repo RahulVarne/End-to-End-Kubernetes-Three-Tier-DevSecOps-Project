@@ -1,4 +1,4 @@
-FROM node:14
+FROM debian:12-slim
 WORKDIR /usr/src/app
 
 COPY package*.json ./
