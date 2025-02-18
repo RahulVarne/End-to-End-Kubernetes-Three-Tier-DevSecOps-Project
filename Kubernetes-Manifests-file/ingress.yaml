@@ -11,6 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
+  - host: kaustubhbalpande.xyz
       http:
         paths:
           - path: /api
